@@ -1,0 +1,17 @@
+name: rocket-default
+
+channels:
+  - conda-forge
+  - nodefaults
+
+dependencies:
+  - python=3.9.16
+  - pip=21.2.4
+  - pip:
+      - mlflow==1.30.0
+      - pyarrow==7.0.0
+      - scikit-learn==1.0.2
+      - numpy==1.22.3
+      - scipy==1.8.0
+      - pandas==1.4.2
+      - category_encoders==2.2.2

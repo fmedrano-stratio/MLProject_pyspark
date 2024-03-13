@@ -1,0 +1,12 @@
+name: example-model
+
+conda_env: conda.yaml
+
+entry_points:
+  main:
+    parameters:
+      output_column_name: {type: string, default: prediction}
+      output_column_type: {type: string, default: string}
+
+      
+    command: "python train.py"
